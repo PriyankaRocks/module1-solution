@@ -3,7 +3,7 @@
 
 angular.module('LunchCheck', [])
 .controller('LunchCheckController', function ($scope) {
-    $scope.name = "Priyanka!";
+    $scope.name = "";
     $scope.checkItemCounts = function() {
       let inputString = ($scope.name).split(",");
       let count = inputString.filter(function(val) {
